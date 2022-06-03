@@ -1,0 +1,173 @@
+.width-1 {
+  width: 8.33333% !important;
+}
+
+.width-2 {
+  width: 16.66667% !important;
+}
+
+.width-3 {
+  width: 25% !important;
+}
+
+.width-4 {
+  width: 33.33333% !important;
+}
+
+.width-5 {
+  width: 41.66667% !important;
+}
+
+.width-6 {
+  width: 50% !important;
+}
+
+.width-7 {
+  width: 58.33333% !important;
+}
+
+.width-8 {
+  width: 66.66667% !important;
+}
+
+.width-9 {
+  width: 75% !important;
+}
+
+.width-10 {
+  width: 83.33333% !important;
+}
+
+.width-11 {
+  width: 91.66667% !important;
+}
+
+.width-12 {
+  width: 100% !important;
+}
+
+.bg-main {
+  background-color: #f0f0f0 !important;
+}
+
+.shadowing {
+  -webkit-box-shadow: 0px 0px 15px 1px #42051e;
+          box-shadow: 0px 0px 15px 1px #42051e;
+}
+
+.fit-content {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
+  height: -webkit-fit-content !important;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.mainc {
+  color: #42051e;
+}
+
+@media (min-width: 992px) {
+  #bigcontainer div,
+  #bigcontainer footer {
+    margin-left: 18.5%;
+    width: 80%;
+  }
+  #me {
+    width: 70% !important;
+  }
+  .project_img {
+    width: 33.33333% !important;
+  }
+  .project_content {
+    width: 66.66667% !important;
+  }
+}
+
+@media (max-width: 991px) {
+  #me {
+    width: 50% !important;
+  }
+  .project_img,
+  .project_content {
+    width: 100% !important;
+  }
+}
+
+#bigcontainer div {
+  min-height: 250px;
+}
+
+#mainsections li {
+  width: 100%;
+}
+
+#mainsections li a {
+  border-radius: 15px;
+  width: 100%;
+}
+
+#mainsections li a:hover {
+  background-color: rgba(255, 255, 255, 0.226);
+}
+
+.activee {
+  background-color: rgba(255, 255, 255, 0.226);
+}
+
+#me {
+  -webkit-box-shadow: 7px 6px 20px 7px #42051e;
+          box-shadow: 7px 6px 20px 7px #42051e;
+}
+
+@media (min-width: 992px) {
+  #home div {
+    width: 50%;
+  }
+}
+
+#home div span button {
+  background-color: #42051e;
+  color: white;
+  border-radius: 13px;
+  border: none;
+}
+
+#home div span button:hover {
+  -webkit-box-shadow: 0px 0px 9px 1px yellow;
+          box-shadow: 0px 0px 9px 1px yellow;
+}
+
+#home div span i:hover {
+  -webkit-box-shadow: 0px 0px 9px 1px yellow;
+          box-shadow: 0px 0px 9px 1px yellow;
+  background-color: rgba(255, 255, 0, 0.507);
+  cursor: pointer;
+}
+
+button {
+  background-color: #42051e;
+  color: white;
+  border-radius: 13px;
+  border: none;
+}
+
+button:hover {
+  -webkit-box-shadow: 0px 0px 9px 1px yellow;
+          box-shadow: 0px 0px 9px 1px yellow;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 0 2px 1px #42051e;
+          box-shadow: 0 0 2px 1px #42051e;
+}
+/*# sourceMappingURL=cv.css.map */

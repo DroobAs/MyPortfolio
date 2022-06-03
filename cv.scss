@@ -1,0 +1,144 @@
+$maincolor:rgb(66, 5, 30);
+$backgroundmain:rgb(240, 240, 240);
+
+$total: 12;  
+@for $i from 1 through $total
+{
+    .width-#{$i}{
+        width: percentage($i/$total) !important; 
+    }
+}
+.bg-main{
+    background-color: $backgroundmain !important;
+    // background: linear-gradient($maincolor, $backgroundmain);
+}
+
+.shadowing {
+    box-shadow: 0px 0px 15px 1px $maincolor;
+}
+.fit-content{
+    width: fit-content !important;
+    height: fit-content !important;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+
+.mainc{
+    color: $maincolor;
+}
+
+@media (min-width: 992px)
+{
+    #bigcontainer{
+        div,
+        footer{
+            margin-left: 18.5%;
+            width: 80%;
+            }
+    }
+    #me{
+        width: 70% !important;
+    }
+    .project_img{
+        width: 33.33333% !important;
+    }
+    .project_content{
+        width: 66.66667% !important;
+    }
+}
+
+@media (max-width: 991px)
+{
+    #me{
+        width: 50% !important;
+    }
+    .project_img,
+    .project_content{
+        width: 100% !important;
+    }
+
+    // #bigcontainer{
+    //     div{
+    //         margin-left: 5% !important;
+    //         margin-right: 5%;
+    //         width: 90%;
+
+    //         }
+    // }
+}
+
+#bigcontainer{
+    div{
+        min-height: 250px;
+        // width: 99% !important;
+        }
+}
+
+#mainsections{
+    li{
+        width: 100%;
+        a{
+            border-radius: 15px;
+            width: 100%;
+        }
+        a:hover{
+            background-color: rgba(255, 255, 255, 0.226);
+        }
+    }
+}
+.activee{
+    background-color: rgba(255, 255, 255, 0.226);
+}
+
+#me{
+    box-shadow: 7px 6px 20px 7px $maincolor;
+}
+
+@media (min-width: 992px)
+{
+    #home{
+        div{
+            width: 50%;
+        }
+    }
+}
+
+#home{
+    div{
+        span{
+            button{
+                background-color: $maincolor;
+                color: white;
+                border-radius: 13px;
+                border: none;
+            }
+            button:hover{
+                box-shadow: 0px 0px 9px 1px yellow;
+            }
+            i:hover{
+                box-shadow: 0px 0px 9px 1px yellow;
+                background-color: rgba(255, 255, 0, 0.507);
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+button{
+    background-color: $maincolor;
+    color: white;
+    border-radius: 13px;
+    border: none;
+}
+button:hover{
+    box-shadow: 0px 0px 9px 1px yellow;
+}
+
+.card:hover{
+    box-shadow: 0 0 2px 1px $maincolor;
+}
