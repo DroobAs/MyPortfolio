@@ -170,4 +170,13 @@ button:hover {
   -webkit-box-shadow: 0 0 2px 1px #42051e;
           box-shadow: 0 0 2px 1px #42051e;
 }
+
+.scale:hover{
+    transform: scale(1.1);
+}
+
+.scalep:hover{
+    transform: scale(1.03);
+}
+
 /*# sourceMappingURL=cv.css.map */
