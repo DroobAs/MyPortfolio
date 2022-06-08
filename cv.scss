@@ -142,3 +142,11 @@ button:hover{
 .card:hover{
     box-shadow: 0 0 2px 1px $maincolor;
 }
+
+.scale:hover{
+    transform: scale(1.1);
+}
+
+.scalep:hover{
+    transform: scale(1.03);
+}
